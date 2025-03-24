@@ -16,13 +16,13 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-
+    
     <StackLayout>
         <SearchBar x:Name="txt_search"
                    Margin="15, 15, 15, 10"
                    Placeholder="Pesquisar produtos"
                    TextChanged="txt_search_TextChanged"/>
-
+        
         <Frame Padding="10" Margin="10" VerticalOptions="FillAndExpand">
             <ListView x:Name="lst_produtos"
                   IsPullToRefreshEnabled="True"
@@ -54,5 +54,6 @@
                 </ListView.ItemTemplate>
             </ListView>
         </Frame>
+
     </StackLayout>
 </ContentPage>
